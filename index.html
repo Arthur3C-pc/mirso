@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Agrinho: O Agro une Tradição e Modernidade!</title>
+    <style>
+        /* Estilos Globais e Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f4f7f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Header / Banner Principal Atualizado */
+        header {
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+            min-height: 60vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            padding: 40px;
+        }
+
+        .header-content {
+            display: flex;
+            align-items: center;
+            max-width: 1100px;
+            gap: 40px;
+            text-align: left;
+        }
+
+        /* Container da Imagem em Destaque */
+        .image-highlight {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .image-highlight img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+            border: 4px solid #fff;
+        }
+
+        /* Texto do Header */
+        .header-text {
+            flex: 1.2;
+        }
+
+        header h1 {
+            font-size: 2.8rem;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: #81c784; /* Verde mais claro para destaque */
+        }
+
+        header p {
+            font-size: 1.2rem;
+            max-width: 600px;
+            font-weight: 300;
+            margin-bottom: 20px;
+        }
+
+        /* Container Geral */
+        .container {
+            max-width: 1100px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        /* Seção de Destaques (Cards) */
+        .grid-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            margin-top: 30px;
+        }
+
+        .card {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+            border-top: 5px solid #2e7d32;
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card h3 {
+            color: #2e7d32;
+            margin-bottom: 15px;
+            font-size: 1.5rem;
+        }
+
+        /* Seções de Conteúdo Profundo */
+        .secao-info {
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            margin-top: 40px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+        }
+
+        .secao-info h2 {
+            color: #1b5e20;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #81c784;
+            padding-bottom: 10px;
+        }
+
+        /* Fatos Rápidos (Ajustado) */
+        .fatos-rapidos {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around; /* Mais espaçado */
+            margin-top: 30px;
+            background: #e8f5e9;
+            padding: 30px;
+            border-radius: 8px;
+        }
+
+        .fato {
+            flex: 1;
+            min-width: 250px;
+            text-align: center;
+            padding: 15px;
+        }
+
+        .fato h4 {
+            font-size: 2.2rem;
+            color: #2e7d32;
+        }
+
+        .fato p {
+            font-weight: bold;
+            color: #1b5e20;
+        }
+
+        /* Rodapé */
+        footer {
+            background: #1b5e20;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            margin-top: 60px;
+            font-size: 0.95rem;
+        }
+
+        /* Responsividade para celulares */
+        @media (max-width: 768px) {
+            .header-content {
+                flex-direction: column;
+                text-align: center;
+            }
+            .header-text {
+                order: 1; /* Texto primeiro */
+            }
+            .image-highlight {
+                order: 2; /* Imagem depois */
+                margin-top: 20px;
+            }
+            header h1 { font-size: 2rem; }
+            header p { font-size: 1rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="header-content">
+            <div class="header-text">
+                <h1>Projeto Agrinho: <br>Tradição e Inovação</h1>
+                <p>Nossa imagem de destaque une o sorriso de quem trabalha a terra com os símbolos mais fortes do Brasil: o milho do campo e o mate do sul. Uma prova de que o agro é uma força que move a economia, preserva a cultura e lidera a tecnologia do futuro.</p>
+            </div>
+            <div class="image-highlight">
+                <img src="Gemini_Generated_Image_bzvczbbzvczbbzvc.png" alt="Homem com características do usuário, vestido de Chico Bento Gaúcho, segurando milho e chimarrão ao pôr do sol na lavoura">
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+
+        <div class="grid-cards">
+            <div class="card">
+                <h3>🌍 Essencial & Cultural</h3>
+                <p>Sem o agro, a vida nas cidades para e nossa identidade se perde. Ele garante o alimento na mesa, une as tradições regionais e gera energia limpa todos os dias.</p>
+            </div>
+            <div class="card">
+                <h3>🚀 Tecnológico & Sustentável</h3>
+                <p>O campo hoje é digital. Drones mapeiam plantações, tratores andam sozinhos via GPS e inteligência artificial protege o solo e otimiza cada grão.</p>
+            </div>
+            <div class="card">
+                <h3>💼 Gigante Econômico</h3>
+                <p>É um dos maiores motores do Brasil. Gera milhões de empregos, sustenta o comércio e coloca nosso país como líder global na produção de alimentos.</p>
+            </div>
+        </div>
+
+        <div class="secao-info">
+            <h2>Presença Invisível, Mas Vital</h2>
+            <p>Muitas vezes esquecemos que o agronegócio vai muito além do prato de comida que está na sua mesa. Quando você acorda e veste sua roupa de algodão, ou quando abastece o carro com etanol, a força que vem do campo está presente. O agro está na nossa cultura, no nosso sorriso e na certeza de um futuro mais sustentável para todos.</p>
+            
+            <div class="fatos-rapidos">
+                <div class="fato">
+                    <h4>+25%</h4>
+                    <p>do PIB Brasileiro</p>
+                </div>
+                <div class="fato">
+                    <h4>#1</h4>
+                    <p>Exportador Global de Milho e Soja</p>
+                </div>
+                <div class="fato">
+                    <h4>Milhões</h4>
+                    <p>de Empregos Gerados</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Projeto Agrinho - Escolas do Campo. "O Agro é a Nossa Força".</p>
+    </footer>
+
+</body>
+</html>
